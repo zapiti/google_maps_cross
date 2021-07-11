@@ -35,7 +35,7 @@ dependencies:
 ### iOS
  * In file AppDelegate.swift:
  
-    import UIKit
+    ```import UIKit
     import Flutter
     import GoogleMaps
 
@@ -55,7 +55,7 @@ dependencies:
  ### Android
    * In file AndroidManifest.xml:
     
-       <application
+     ```<application
             android:label="example"
             android:icon="@mipmap/ic_launcher">
            <meta-data android:name="com.google.android.geo.API_KEY"
