@@ -1,7 +1,8 @@
 name: google_maps_cross
 description: Google maps cross platform
-version: 0.0.1
-homepage:
+version: 1.0.0
+authors: [zapiti]
+homepage: https://github.com/zapiti/google_maps_cross
 
 environment:
   sdk: ">=2.12.0 <4.0.0"
