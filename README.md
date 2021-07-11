@@ -22,17 +22,19 @@ dependencies:
 
 > import 'package:google_maps_cross/google_maps_cross.dart';
 
-###WEB
-    In file index.html:
-    ``
+### WEB
+   * In file index.html:
+   
+   
     <body id="app-container">
     <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY"></script>
     <script src="main.dart.js?version=2.1.33" type="application/javascript"></script>
     </body>
-    ```
-###iOS
-    In file AppDelegate.swift:
-    ```
+
+    
+### iOS
+ * In file AppDelegate.swift:
+ 
     import UIKit
     import Flutter
     import GoogleMaps
@@ -48,10 +50,11 @@ dependencies:
         return super.application(application, didFinishLaunchingWithOptions: launchOptions)
       }
     }
-    ```
-###Android
-    In file AndroidManifest.xml:
-    ```
+  
+    
+ ### Android
+   * In file AndroidManifest.xml:
+    
        <application
             android:label="example"
             android:icon="@mipmap/ic_launcher">
@@ -64,10 +67,8 @@ dependencies:
                 android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
                 android:hardwareAccelerated="true"
                 android:windowSoftInputMode="adjustResize">
-    ```
 
-
-##Implementation
+## Implementation
 
 ```
             GoogleMapCross(
