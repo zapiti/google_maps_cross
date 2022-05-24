@@ -504,7 +504,7 @@ class GoogleMapState extends GoogleMapStateBase {
   @override
   void initState() {
     super.initState();
-    SchedulerBinding.instance?.addPostFrameCallback((_) {
+    SchedulerBinding.instance.addPostFrameCallback((_) {
       for (var marker in widget.markers) {
         addMarker(marker);
       }

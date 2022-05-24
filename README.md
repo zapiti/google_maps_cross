@@ -4,7 +4,7 @@ A flutter package that allows you to create basic timelines on your flutter appl
 
 * Usage google maps with crossplatform
 
-<image src="https://github.com/zapiti/google_maps_cross/blob/main/maps.png" height="300em"/>
+<image src="https://github.com/zapiti/google_maps_cross/blob/main/maps.png" height="300em"></image>
 
 ## Getting Started
 
